@@ -11,7 +11,7 @@ clickButton.addEventListener('click', () => {
     score++;
     scoreDisplay.textContent = score;
 
-    if (score === 100) {
+    if (score === 50) {
         popup.style.display = 'block';
     }
 });
